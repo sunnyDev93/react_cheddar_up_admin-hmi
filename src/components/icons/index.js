@@ -1,0 +1,15 @@
+export {default as ContactIcon} from './Contact';
+export {default as GearIcon} from './Gear';
+export {default as HomeIcon} from './Home';
+export {default as LifeRingIcon} from './LifeRing';
+export {default as PinIcon} from './Pin';
+export {default as TagIcon} from './Tag';
+export {default as SettingsIcon} from './Settings';
+export {default as DownloadIcon} from './Download';
+export {default as DollarIcon} from './Dollar';
+export {default as ListIcon} from './List';
+export {default as ViewIcon} from './View';
+export {default as AddressIcon} from './Address';
+export {default as PhoneIcon} from './Phone';
+export {default as AccountIcon} from './Account';
+export {default as BellIcon} from './Bell';

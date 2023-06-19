@@ -1,0 +1,125 @@
+/* layout header */
+
+.ant-layout-header .ant-input-affix-wrapper {
+  align-items: center;
+  border-color: #e2e5ed;
+}
+.ant-layout-header .ant-input-affix-wrapper input,
+.ant-layout-header .ant-input-affix-wrapper input::placeholder {
+  color: #9ea0a5;
+  font-family: 'AvenirLTStd-Roman', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+.ant-layout-header .ant-input-prefix {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+}
+
+/* sidebar menu */
+
+.ant-menu {
+  margin: 17px 14px 0 !important;
+  width: calc(100% - 28px) !important;
+  font-family: 'AvenirLTStd-Medium', sans-serif !important;
+}
+
+.ant-menu-item {
+  padding-left: 14px !important;
+  border-radius: 4px !important;
+}
+
+.ant-menu-item a,
+.ant-menu-item a:hover {
+  color: #fff;
+}
+
+.ant-menu-inline {
+  border-right: none !important;
+}
+
+/* page header */
+
+.ant-page-header {
+  border: 1px solid #eaedf3 !important;
+  box-shadow: 0 1px 3px #0000000a !important;
+  border-radius: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+  overflow: hidden !important;
+}
+
+.ant-page-header-heading {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.ant-page-header-heading-title {
+  font-weight: normal !important;
+  font-size: 26px !important;
+  color: #414142 !important;
+}
+
+/* table */
+
+.ant-table {
+  font-family: 'AvenirLTStd-Roman', sans-serif;
+}
+
+.ant-table-container {
+  border: 1px solid #eaedf3 !important;
+  box-shadow: 0 1px 3px #0000000a !important;
+}
+
+th.ant-table-cell {
+  color: #9ea0a5 !important; /* same as .gray-secondary */
+  font-size: 12px !important;
+  line-height: 18px !important;
+  padding: 0.75rem 1rem !important;
+  font-family: 'AvenirLTStd-Medium', sans-serif !important;
+}
+
+.ant-page-header-heading-extra .ant-btn {
+  border-color: #d8dce6 !important;
+}
+
+.ant-table-column-sorter-up,
+.ant-table-column-sorter-down {
+  font-size: 9px !important;
+}
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0 !important;
+}
+
+.ant-checkbox + span {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.icon-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22.4px;
+}
+
+.ant-checkbox-checked::after,
+.ant-radio-checked::after {
+  border: solid 1px #277a92 !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-radio-inner::after {
+  background-color: #277a92 !important;
+}
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner,
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #277a92 !important;
+}
